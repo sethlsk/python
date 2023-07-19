@@ -1,0 +1,9 @@
+echo "# python" >> README.md
+git init
+git add README.md
+git commit -m "SETH-00001 create about me file"
+git branch -M main
+git branch -M uat
+git branch -M dev
+git remote add origin https://github.com/sethlsk/python.git
+git push -u origin main
